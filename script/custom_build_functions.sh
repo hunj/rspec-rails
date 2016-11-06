@@ -15,5 +15,5 @@ function run_additional_specs {
 # Since we are already implicitly testing them we do not need to run their spec
 # suites explicitly.
 function run_all_spec_suites {
-  fold "one-by-one specs" run_specs_one_by_one
+  return
 }
